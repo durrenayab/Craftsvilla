@@ -49,7 +49,11 @@ public class LinenSareesScripts extends BaseTest
 			Reporter.log("Unable to capture the screenshot"+e);
 		        }
 	}
-	
+	@Test
+	public void TC_02_linenSareeScript()
+	{
+		
+	}
 		
 	}
 
