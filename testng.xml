@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Framework">
+<parameter name="browser" value="chrome"></parameter>
+<listeners>
+<listener class-name="com.framework.generic.CaptureScreenshot"></listener>
+</listeners>
+  <test name="Regression">
+  <classes>
+  <class name="com.framework.testscript.LinenSareesScripts"></class>
+  </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Framework -->
